@@ -9,6 +9,7 @@
 - name: Install build dependencies
   pacman:
     name: base-devel
+  become: true
   tags:
     - archlinux_aur_deps
 
